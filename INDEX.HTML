@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">My Portfolio</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="home">
+        <div class="intro">
+            <h1>Hi, I'm Ashish Kumar Savarn</h1>
+            <p>Web Developer | Designer | Programmer</p>
+            <p>Creating beautiful and functional websites</p>
+        </div>
+        <img src="me.jpg.jpeg" alt="Your Photo" class="profile-photo">
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I'm a passionate web developer with expertise in front-end and back-end technologies. I enjoy building beautiful, responsive websites and have a keen interest in UX/UI design.</p>
+        <div class="info">
+            <div>
+                <h3>Education</h3>
+                <p>Pursuing Bachelor of Science in Computer Science - Acharya Institute of Technology</p>
+            </div>
+            <div>
+                <h3>Experience</h3>
+                <p>Web Developer Intern at Prodigy Infotech</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Weather Website</h3>
+            <p>A dynamic web application that provides real-time weather information based on user-selected cities. This weather website enables users to quickly check current conditions, temperature, humidity, and forecast data for any chosen location. The intuitive design ensures easy navigation, and the website seamlessly updates data for a smooth user experience. Built with a responsive layout, it’s accessible on both desktop and mobile devices, making it convenient for users on the go. This project highlights my skills in API integration, data handling, and front-end development to create a practical and user-friendly tool.</p>
+        </div>
+        <div class="project">
+            <h3>Interactive Navigation Menu</h3>
+            <p>An engaging, fixed-position navigation menu that enhances user experience through responsive styling and dynamic interactivity. The menu remains visible on all pages, providing seamless navigation across the site. On scrolling, the menu adjusts its background and font colors to improve visibility and maintain a clean aesthetic. Additionally, each menu item responds to hover events with subtle styling changes, creating a visually engaging effect that guides user interaction. This project showcases my expertise in using HTML, CSS, and JavaScript to build interactive, user-centered web components that are both functional and visually appealing.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm" action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
